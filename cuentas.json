@@ -1,0 +1,25 @@
+[
+{
+"cliente":"PEDRO Y CELIA LOCAL",
+"saldo":10825770,
+"moneda":"ARS"
+},
+
+{
+"cliente":"MARIANA PACHECO",
+"saldo":929700,
+"moneda":"ARS"
+},
+
+{
+"cliente":"MARCELO GUSMAN",
+"saldo":45366490,
+"moneda":"ARS"
+},
+
+{
+"cliente":"ROGER ZITANA",
+"saldo":11599,
+"moneda":"USD"
+}
+]
