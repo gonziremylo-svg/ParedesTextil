@@ -113,7 +113,12 @@ cursor:pointer;
 
 let stock=[]
 let cuentas=[]
-
+fetch("cuentas.json")
+.then(r=>r.json())
+.then(data=>{
+cuentas=data
+renderClientes()
+})
 fetch("stock.json")
 .then(r=>r.json())
 .then(data=>{
@@ -214,7 +219,19 @@ document.getElementById("clientes").innerHTML=""
 renderClientes()
 
 }
+function pagar(i){
 
+let monto=prompt("Monto del pago")
+
+if(!monto)return
+
+cuentas[i].saldo-=parseFloat(monto)
+
+renderClientes()
+
+}
+
+</script>
 </script>
 
 </body>
