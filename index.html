@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Paredes Textil</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+font-family:Arial;
+background:#f3f5fa;
+margin:0;
+}
+
+header{
+background:white;
+padding:20px;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.container{
+padding:25px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:10px;
+overflow:hidden;
+}
+
+th,td{
+padding:10px;
+border-bottom:1px solid #eee;
+}
+
+input{
+width:100%;
+padding:6px;
+border-radius:6px;
+border:1px solid #ddd;
+}
+
+.total{
+font-weight:bold;
+color:#0a9d63;
+}
+
+.search{
+margin-bottom:15px;
+padding:8px;
+border-radius:6px;
+border:1px solid #ccc;
+width:250px;
+}
+
+.card{
+background:white;
+padding:15px;
+margin-top:10px;
+border-radius:10px;
+}
+
+button{
+padding:6px 12px;
+border:none;
+border-radius:6px;
+background:#2962ff;
+color:white;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Paredes Textil</h1>
+</header>
+
+<div class="container">
+
+<h2>Stock</h2>
+
+<input id="buscar" class="search" placeholder="Buscar tela..." onkeyup="buscar()">
+
+<table id="tablaStock">
+
+<thead>
+<tr>
+<th>Artículo</th>
+<th>Bacacay</th>
+<th>Depósito</th>
+<th>Total</th>
+</tr>
+</thead>
+
+<tbody id="stockBody"></tbody>
+
+</table>
+
+<h2>Cuentas Corrientes</h2>
+
+<div id="clientes"></div>
+
+</div>
+
+<script>
+
+let stock=[]
+let cuentas=[]
+
+fetch("stock.json")
+.then(r=>r.json())
+.then(data=>{
+stock=data
+renderStock()
+})
+
+fetch("cuentas.json")
+.then(r=>r.json())
+.then(data=>{
+cuentas=data
+renderClientes()
+})
+
+function renderStock(){
+
+let body=document.getElementById("stockBody")
+body.innerHTML=""
+
+stock.forEach((s,i)=>{
+
+let total=(s.bacacay+s.deposito).toFixed(2)
+
+body.innerHTML+=`
+
+<tr>
+
+<td>${s.articulo}</td>
+
+<td>
+<input value="${s.bacacay}" onchange="stock[${i}].bacacay=parseFloat(this.value);renderStock()">
+</td>
+
+<td>
+<input value="${s.deposito}" onchange="stock[${i}].deposito=parseFloat(this.value);renderStock()">
+</td>
+
+<td class="total">${total}</td>
+
+</tr>
+
+`
+
+})
+
+}
+
+function buscar(){
+
+let v=document.getElementById("buscar").value.toLowerCase()
+
+document.querySelectorAll("#tablaStock tbody tr").forEach(r=>{
+
+if(r.innerText.toLowerCase().includes(v))
+r.style.display=""
+else
+r.style.display="none"
+
+})
+
+}
+
+function renderClientes(){
+
+let cont=document.getElementById("clientes")
+
+cuentas.forEach((c,i)=>{
+
+cont.innerHTML+=`
+
+<div class="card">
+
+<b>${c.cliente}</b><br>
+
+Saldo: ${c.moneda=="USD"?"USD ":"$"}${c.saldo.toLocaleString()}
+
+<br><br>
+
+<button onclick="pagar(${i})">Registrar pago</button>
+
+</div>
+
+`
+
+})
+
+}
+
+function pagar(i){
+
+let monto=prompt("Monto del pago")
+
+if(!monto)return
+
+cuentas[i].saldo-=parseFloat(monto)
+
+document.getElementById("clientes").innerHTML=""
+renderClientes()
+
+}
+
+</script>
+
+</body>
+</html>
