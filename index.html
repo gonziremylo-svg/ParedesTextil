@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <head>
 
 <meta charset="UTF-8">
@@ -228,7 +228,7 @@ let div=document.getElementById("clientes")
 
 div.innerHTML=""
 
-cuentas.forEach(c=>{
+cuentas.forEach((c,i)=>{
 
 let color=c.saldo>=0?"positivo":"negativo"
 
@@ -241,7 +241,9 @@ div.innerHTML+=`
 <div class="saldo ${color}">
 Saldo: ${c.moneda} ${c.saldo}
 </div>
+<button onclick="registrarPago(${i})">Registrar pago</button>
 
+<button onclick="generarPDF(${i})">Generar PDF</button>
 </div>
 
 `
