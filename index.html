@@ -189,13 +189,7 @@ Paredes Textil
 let stock=[]
 let cuentas=[]
 
-fetch("stock.json")
-.then(r=>r.json())
-.then(data=>{
-stock=data
-renderStock(stock)
-})
-
+  
 fetch("stock.json")
 .then(r=>r.json())
 .then(data=>{
