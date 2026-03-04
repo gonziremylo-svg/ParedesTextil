@@ -1,102 +1,1412 @@
 [
-{"articulo":"CALCERO FRIZADO BLANCO","bacacay":629.20,"deposito":1952.10},
-{"articulo":"CALCERO FRIZADO NEGRO","bacacay":4540.80,"deposito":5497.30},
-{"articulo":"CALCERO FRIZADO AZUL","bacacay":1034.10,"deposito":1915.80},
-
-{"articulo":"DARLON LUMINOSO ESTRELLA CELESTE","bacacay":21.20,"deposito":952.70},
-{"articulo":"DARLON LUMINOSO ESTRELLA ROSA","bacacay":-2.10,"deposito":934.20},
-
-{"articulo":"DARLON GLITTER CORAZON NEGRO","bacacay":67.80,"deposito":918.90},
-{"articulo":"DARLON GLITTER CORAZON CELO","bacacay":77.40,"deposito":131.30},
-{"articulo":"DARLON GLITTER CORAZON GRIS","bacacay":72.00,"deposito":417.20},
-{"articulo":"DARLON GLITTER CORAZON IVORY","bacacay":67.90,"deposito":580.70},
-{"articulo":"DARLON GLITTER CORAZON LAVANDA","bacacay":56.10,"deposito":403.40},
-{"articulo":"DARLON GLITTER CORAZON NEGRO","bacacay":73.90,"deposito":82.30},
-{"articulo":"DARLON GLITTER CORAZON ROSA VIN","bacacay":75.40,"deposito":920.90},
-
-{"articulo":"DARLON GLITTER ESTRELLA BEIGE","bacacay":77.50,"deposito":101.00},
-{"articulo":"DARLON GLITTER ESTRELLA CELO","bacacay":72.50,"deposito":748.20},
-{"articulo":"DARLON GLITTER ESTRELLA CHOCO","bacacay":72.00,"deposito":730.60},
-{"articulo":"DARLON GLITTER ESTRELLA GRIS","bacacay":78.80,"deposito":304.80},
-{"articulo":"DARLON GLITTER ESTRELLA LILA","bacacay":66.70,"deposito":865.00},
-{"articulo":"DARLON GLITTER ESTRELLA LAVANDA","bacacay":75.00,"deposito":833.20},
-
-{"articulo":"DARLON LISO BEIGE","bacacay":172.60,"deposito":1246.10},
-{"articulo":"DARLON LISO BORDO","bacacay":106.00,"deposito":1221.80},
-{"articulo":"DARLON LISO CELESTE","bacacay":254.30,"deposito":1456.40},
-{"articulo":"DARLON LISO CHOCOLATE","bacacay":95.30,"deposito":608.40},
-{"articulo":"DARLON LISO MARINO","bacacay":138.20,"deposito":717.20},
-
-{"articulo":"DARLON LISO NEGRO","bacacay":114.20,"deposito":3318.80},
-{"articulo":"DARLON LISO OFF WHITE","bacacay":92.60,"deposito":1140.20},
-{"articulo":"DARLON LISO ROSA BB","bacacay":126.50,"deposito":876.70},
-{"articulo":"DARLON LISO VERDE CLARO","bacacay":16.50,"deposito":80.70},
-{"articulo":"DARLON LISO VISION","bacacay":85.30,"deposito":1375.50},
-
-{"articulo":"DARLON LUMINOSO ARCOIRIS DURAZ","bacacay":84.50,"deposito":410.00},
-{"articulo":"DARLON LUMINOSO ARCOIRIS SALM","bacacay":88.10,"deposito":963.30},
-{"articulo":"DARLON LUMINOSO ARCOIRIS LILA","bacacay":88.10,"deposito":951.00},
-
-{"articulo":"DARLON LUMINOSO AUTO NATURAL","bacacay":64.10,"deposito":95.90},
-{"articulo":"DARLON LUMINOSO AUTO VERDE","bacacay":64.10,"deposito":95.20},
-
-{"articulo":"DARLON LUMINOSO DINOSAURIO GR","bacacay":43.40,"deposito":152.40},
-{"articulo":"DARLON LUMINOSO DINOSAURIO CEL","bacacay":43.40,"deposito":952.30},
-
-{"articulo":"DARLON LUMINOSO ESTRELLA GRIS","bacacay":41.90,"deposito":832.00},
-{"articulo":"DARLON LUMINOSO ESTRELLA NATU","bacacay":43.40,"deposito":95.70},
-
-{"articulo":"DARLON LUMINOSO FLOR LILA","bacacay":41.90,"deposito":92.50},
-{"articulo":"DARLON LUMINOSO FLOR ROSA","bacacay":41.90,"deposito":927.50},
-
-{"articulo":"DARLON LUMINOSO FRUTILLA ROSA","bacacay":84.00,"deposito":950.00},
-{"articulo":"DARLON LUMINOSO FRUTILLA GRIS","bacacay":84.00,"deposito":143.40},
-
-{"articulo":"DARLON LUMINOSO LUNA CELESTE","bacacay":84.00,"deposito":995.00},
-{"articulo":"DARLON LUMINOSO LUNA GRIS","bacacay":87.60,"deposito":1175.70},
-
-{"articulo":"DARLON LUMINOSO PELTA ROSA","bacacay":41.90,"deposito":92.90},
-{"articulo":"DARLON LUMINOSO UNICORNIO ROSA","bacacay":84.00,"deposito":450.10},
-
-{"articulo":"MODAL HAWAI ARENA","bacacay":73.40,"deposito":434.40},
-{"articulo":"MODAL HAWAI BEREN","bacacay":74.80,"deposito":451.30},
-{"articulo":"MODAL HAWAI CAMEL","bacacay":74.80,"deposito":391.30},
-{"articulo":"MODAL HAWAI CHOCOLATE","bacacay":74.80,"deposito":332.00},
-{"articulo":"MODAL HAWAI DENIM","bacacay":74.80,"deposito":405.80},
-
-{"articulo":"MODAL SOFT BEIGE","bacacay":63.30,"deposito":1652.10},
-{"articulo":"MODAL SOFT BLANCO","bacacay":73.30,"deposito":1033.50},
-{"articulo":"MODAL SOFT CAMEL","bacacay":73.30,"deposito":759.00},
-{"articulo":"MODAL SOFT CELESTE","bacacay":73.30,"deposito":474.00},
-
-{"articulo":"MORLEY PRINT ANIMAL MARINO","bacacay":107.80,"deposito":111.50},
-{"articulo":"MORLEY PRINT ANIMAL NEGRO","bacacay":107.20,"deposito":107.20},
-{"articulo":"MORLEY PRINT BATIK MARINO","bacacay":91.00,"deposito":83.90},
-
-{"articulo":"MORLEY SOFT BEIGE","bacacay":53.60,"deposito":1612.80},
-{"articulo":"MORLEY SOFT CAMEL","bacacay":116.10,"deposito":2312.40},
-{"articulo":"MORLEY SOFT CELESTE","bacacay":193.90,"deposito":255.90},
-{"articulo":"MORLEY SOFT GRIS","bacacay":416.00,"deposito":88.80},
-
-{"articulo":"PLUSH DOBLE CELESTE","bacacay":45.70,"deposito":717.70},
-{"articulo":"PLUSH DOBLE GRIS","bacacay":63.10,"deposito":1412.30},
-{"articulo":"PLUSH DOBLE LILA","bacacay":71.00,"deposito":791.30},
-{"articulo":"PLUSH DOBLE MARINO","bacacay":46.70,"deposito":1792.60},
-{"articulo":"PLUSH DOBLE NEGRO","bacacay":75.10,"deposito":953.10},
-
-{"articulo":"PLUSH HAWAI BEIGE","bacacay":87.50,"deposito":416.10},
-{"articulo":"PLUSH HAWAI BORDO","bacacay":150.10,"deposito":579.50},
-{"articulo":"PLUSH HAWAI CHOCOLATE","bacacay":142.90,"deposito":300.70},
-{"articulo":"PLUSH HAWAI DENIM","bacacay":112.20,"deposito":389.80},
-
-{"articulo":"PLUSH LUMINOSO ARGENTINA AZUL","bacacay":75.10,"deposito":754.60},
-{"articulo":"PLUSH LUMINOSO ARGENTINA CELESTE","bacacay":75.10,"deposito":469.60},
-{"articulo":"PLUSH LUMINOSO CORAZON NEGRO","bacacay":51.20,"deposito":751.20},
-{"articulo":"PLUSH LUMINOSO CORAZON CELESTE","bacacay":51.20,"deposito":689.80},
-
-{"articulo":"SARAH KEY BEIGE","bacacay":113.50,"deposito":1135.10},
-{"articulo":"SARAH KEY BORDO","bacacay":60.20,"deposito":1120.80},
-{"articulo":"SARAH KEY CAMEL","bacacay":63.40,"deposito":1114.40},
-{"articulo":"SARAH KEY MILITAR","bacacay":61.60,"deposito":1129.40},
-{"articulo":"SARAH KEY NATURAL","bacacay":60.90,"deposito":1124.30}
+  {
+    "articulo": "CALCERO FRIZADO AZUL",
+    "bacacay": 1034.1,
+    "deposito": 1915.8,
+    "total": 2949.9
+  },
+  {
+    "articulo": "CALCERO FRIZADO BLANCO",
+    "bacacay": 629.2,
+    "deposito": 1952.1,
+    "total": 2581.3
+  },
+  {
+    "articulo": "CALCERO FRIZADO GRIS",
+    "bacacay": 1076.9,
+    "deposito": 1985.7,
+    "total": 3062.6
+  },
+  {
+    "articulo": "CALCERO FRIZADO NEGRO",
+    "bacacay": 4544.0,
+    "deposito": 5497.3,
+    "total": 10041.3
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON BEIGE",
+    "bacacay": 64.9,
+    "deposito": 351.6,
+    "total": 416.5
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON CHOCOLA",
+    "bacacay": 67.8,
+    "deposito": 919.8,
+    "total": 987.6
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON CIELO",
+    "bacacay": 77.4,
+    "deposito": 430.0,
+    "total": 507.4
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON GRIS",
+    "bacacay": 67.2,
+    "deposito": 417.2,
+    "total": 484.4
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON IVORY",
+    "bacacay": 74.9,
+    "deposito": 460.8,
+    "total": 535.7
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON LAVANDA",
+    "bacacay": 56.1,
+    "deposito": 887.7,
+    "total": 943.8
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON MOCHA",
+    "bacacay": 73.4,
+    "deposito": 430.4,
+    "total": 503.8
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON NEGRO",
+    "bacacay": 133.5,
+    "deposito": 832.3,
+    "total": 965.8
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON ROSA CLA",
+    "bacacay": 75.0,
+    "deposito": 916.9,
+    "total": 991.9
+  },
+  {
+    "articulo": "DARLON GLITTER CORAZON ROSA VIN",
+    "bacacay": 70.5,
+    "deposito": 920.2,
+    "total": 990.7
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA BEIGE",
+    "bacacay": 75.3,
+    "deposito": 838.6,
+    "total": 913.9
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA BLACK",
+    "bacacay": 123.5,
+    "deposito": 1012.9,
+    "total": 1136.4
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA CHOCOLA",
+    "bacacay": 78.8,
+    "deposito": 458.2,
+    "total": 537.0
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA CIELO",
+    "bacacay": 76.2,
+    "deposito": 730.6,
+    "total": 806.8
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA GRIS",
+    "bacacay": 66.7,
+    "deposito": 340.8,
+    "total": 407.5
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA IVORY",
+    "bacacay": 68.6,
+    "deposito": 868.0,
+    "total": 936.6
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA LAVANDA",
+    "bacacay": 72.5,
+    "deposito": 838.6,
+    "total": 911.1
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA MOCHA",
+    "bacacay": 71.1,
+    "deposito": 450.1,
+    "total": 521.2
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA ROSA CLA",
+    "bacacay": 74.7,
+    "deposito": 876.5,
+    "total": 951.2
+  },
+  {
+    "articulo": "DARLON GLITTER ESTRELLA ROSA VIN",
+    "bacacay": 75.2,
+    "deposito": 883.3,
+    "total": 958.5
+  },
+  {
+    "articulo": "DARLON LISO AMARILLO",
+    "bacacay": 0.0,
+    "deposito": 881.4,
+    "total": 881.4
+  },
+  {
+    "articulo": "DARLON LISO BEIGE",
+    "bacacay": 376.2,
+    "deposito": 1826.1,
+    "total": 2202.3
+  },
+  {
+    "articulo": "DARLON LISO BORDO",
+    "bacacay": 108.9,
+    "deposito": 1221.8,
+    "total": 1330.7
+  },
+  {
+    "articulo": "DARLON LISO CAMEL",
+    "bacacay": 174.1,
+    "deposito": 1485.1,
+    "total": 1659.2
+  },
+  {
+    "articulo": "DARLON LISO CELESTE",
+    "bacacay": 254.3,
+    "deposito": 608.4,
+    "total": 862.7
+  },
+  {
+    "articulo": "DARLON LISO CHERRY",
+    "bacacay": 108.6,
+    "deposito": 773.2,
+    "total": 881.8
+  },
+  {
+    "articulo": "DARLON LISO CHOCOLATE",
+    "bacacay": 322.6,
+    "deposito": 2024.1,
+    "total": 2346.7
+  },
+  {
+    "articulo": "DARLON LISO MARINO",
+    "bacacay": 65.1,
+    "deposito": 717.2,
+    "total": 782.3
+  },
+  {
+    "articulo": "DARLON LISO MILITAR",
+    "bacacay": 118.2,
+    "deposito": 1364.5,
+    "total": 1482.7
+  },
+  {
+    "articulo": "DARLON LISO NEGRO",
+    "bacacay": 68.7,
+    "deposito": 3801.8,
+    "total": 3870.5
+  },
+  {
+    "articulo": "DARLON LISO OFF WHITE",
+    "bacacay": 60.5,
+    "deposito": 148.2,
+    "total": 208.7
+  },
+  {
+    "articulo": "DARLON LISO ROSA BB",
+    "bacacay": 192.0,
+    "deposito": 716.7,
+    "total": 908.7
+  },
+  {
+    "articulo": "DARLON LISO VERDE CLARO",
+    "bacacay": 0.0,
+    "deposito": 870.7,
+    "total": 870.7
+  },
+  {
+    "articulo": "DARLON LISO VISON",
+    "bacacay": 126.5,
+    "deposito": 1375.5,
+    "total": 1502.0
+  },
+  {
+    "articulo": "DARLON LUMINOSO ARCOIRIA DURAZ",
+    "bacacay": 85.0,
+    "deposito": 1110.0,
+    "total": 1195.0
+  },
+  {
+    "articulo": "DARLON LUMINOSO ARCOIRIS LILA",
+    "bacacay": 84.5,
+    "deposito": 963.3,
+    "total": 1047.8
+  },
+  {
+    "articulo": "DARLON LUMINOSO ARCOIRIS SALMO",
+    "bacacay": 88.1,
+    "deposito": 951.0,
+    "total": 1039.1
+  },
+  {
+    "articulo": "DARLON LUMINOSO AUTO CELESTE",
+    "bacacay": 88.1,
+    "deposito": 1152.3,
+    "total": 1240.4
+  },
+  {
+    "articulo": "DARLON LUMINOSO AUTO NATURAL",
+    "bacacay": 65.1,
+    "deposito": 989.5,
+    "total": 1054.6
+  },
+  {
+    "articulo": "DARLON LUMINOSO AUTO VERDE",
+    "bacacay": 66.1,
+    "deposito": 952.2,
+    "total": 1018.3
+  },
+  {
+    "articulo": "DARLON LUMINOSO DINOSAURIO CEL",
+    "bacacay": 0.0,
+    "deposito": 1152.4,
+    "total": 1152.4
+  },
+  {
+    "articulo": "DARLON LUMINOSO DINOSAURIO GRI",
+    "bacacay": 43.4,
+    "deposito": 929.3,
+    "total": 972.7
+  },
+  {
+    "articulo": "DARLON LUMINOSO DINOSAURIO VER",
+    "bacacay": 21.5,
+    "deposito": 965.4,
+    "total": 986.9
+  },
+  {
+    "articulo": "DARLON LUMINOSO ESTRELLA L GRIS",
+    "bacacay": 46.2,
+    "deposito": 1127.1,
+    "total": 1173.3
+  },
+  {
+    "articulo": "DARLON LUMINOSO ESTRELLA L NATU",
+    "bacacay": 43.9,
+    "deposito": 930.7,
+    "total": 974.6
+  },
+  {
+    "articulo": "DARLON LUMINOSO ESTRELLA L ROSA",
+    "bacacay": 44.7,
+    "deposito": 975.5,
+    "total": 1020.2
+  },
+  {
+    "articulo": "DARLON LUMINOSO ESTRELLA S CELE",
+    "bacacay": 21.2,
+    "deposito": 925.2,
+    "total": 946.4
+  },
+  {
+    "articulo": "DARLON LUMINOSO ESTRELLA S MILIT",
+    "bacacay": 43.2,
+    "deposito": 934.2,
+    "total": 977.4
+  },
+  {
+    "articulo": "DARLON LUMINOSO ESTRELLA S ROSA",
+    "bacacay": 21.2,
+    "deposito": 1130.5,
+    "total": 1151.7
+  },
+  {
+    "articulo": "DARLON LUMINOSO FLOR GRIS",
+    "bacacay": 21.7,
+    "deposito": 927.5,
+    "total": 949.2
+  },
+  {
+    "articulo": "DARLON LUMINOSO FLOR ROSA",
+    "bacacay": 22.3,
+    "deposito": 931.0,
+    "total": 953.3
+  },
+  {
+    "articulo": "DARLON LUMINOSO FLOR SALMON",
+    "bacacay": 43.5,
+    "deposito": 950.0,
+    "total": 993.5
+  },
+  {
+    "articulo": "DARLON LUMINOSO FRUTILLA FUCSIA",
+    "bacacay": -0.6,
+    "deposito": 1124.9,
+    "total": 1124.3
+  },
+  {
+    "articulo": "DARLON LUMINOSO FRUTILLA GRIS",
+    "bacacay": 22.1,
+    "deposito": 950.4,
+    "total": 972.5
+  },
+  {
+    "articulo": "DARLON LUMINOSO FRUTILLA ROSA",
+    "bacacay": 44.1,
+    "deposito": 1143.4,
+    "total": 1187.5
+  },
+  {
+    "articulo": "DARLON LUMINOSO LUNA CELESTE",
+    "bacacay": 77.3,
+    "deposito": 950.1,
+    "total": 1027.4
+  },
+  {
+    "articulo": "DARLON LUMINOSO LUNA GRIS",
+    "bacacay": 86.4,
+    "deposito": 1117.5,
+    "total": 1203.9
+  },
+  {
+    "articulo": "DARLON LUMINOSO LUNA ROSA",
+    "bacacay": 87.0,
+    "deposito": 940.8,
+    "total": 1027.8
+  },
+  {
+    "articulo": "DARLON LUMINOSO PELOTA AZUL",
+    "bacacay": 31.2,
+    "deposito": 1144.2,
+    "total": 1175.4
+  },
+  {
+    "articulo": "DARLON LUMINOSO PELOTA CELESTE",
+    "bacacay": 42.9,
+    "deposito": 933.6,
+    "total": 976.5
+  },
+  {
+    "articulo": "DARLON LUMINOSO PELOTA GRIS",
+    "bacacay": 21.4,
+    "deposito": 929.1,
+    "total": 950.5
+  },
+  {
+    "articulo": "DARLON LUMINOSO UNICORNIO CELE",
+    "bacacay": 43.2,
+    "deposito": 1129.0,
+    "total": 1172.2
+  },
+  {
+    "articulo": "DARLON LUMINOSO UNICORNIO ROSA",
+    "bacacay": 43.5,
+    "deposito": 923.3,
+    "total": 966.8
+  },
+  {
+    "articulo": "DARLON LUMINOSO UNICORNIO SALM",
+    "bacacay": 49.6,
+    "deposito": 939.0,
+    "total": 988.6
+  },
+  {
+    "articulo": "LUMINOSO CARITAS CELESTE",
+    "bacacay": 74.1,
+    "deposito": -49.7,
+    "total": 24.4
+  },
+  {
+    "articulo": "LUMINOSO CARITAS GRIS",
+    "bacacay": 2.2,
+    "deposito": -18.7,
+    "total": -16.5
+  },
+  {
+    "articulo": "LUMINOSO CARITAS ROSA",
+    "bacacay": 27.3,
+    "deposito": -1.3,
+    "total": 26.0
+  },
+  {
+    "articulo": "LUMINOSO CONEJO CELESTE",
+    "bacacay": 1.0,
+    "deposito": 38.0,
+    "total": 39.0
+  },
+  {
+    "articulo": "LUMINOSO CONEJO ROSA",
+    "bacacay": 0.0,
+    "deposito": -0.02,
+    "total": -0.02
+  },
+  {
+    "articulo": "LUMINOSO CORAZONES GRIS",
+    "bacacay": 23.8,
+    "deposito": 214.2,
+    "total": 238.0
+  },
+  {
+    "articulo": "LUMINOSO CORAZONES LILA",
+    "bacacay": 22.4,
+    "deposito": 232.7,
+    "total": 255.1
+  },
+  {
+    "articulo": "LUMINOSO CORAZONES ROSA",
+    "bacacay": 7.5,
+    "deposito": 840.4,
+    "total": 847.9
+  },
+  {
+    "articulo": "LUMINOSO CORAZONES Y PUNTOS LIL",
+    "bacacay": 51.5,
+    "deposito": -32.6,
+    "total": 18.9
+  },
+  {
+    "articulo": "LUMINOSO CORAZONES Y PUNTOS NA",
+    "bacacay": -0.4,
+    "deposito": 0.0,
+    "total": -0.4
+  },
+  {
+    "articulo": "LUMINOSO CORAZONES Y PUNTOS RO",
+    "bacacay": 39.5,
+    "deposito": 21.1,
+    "total": 60.6
+  },
+  {
+    "articulo": "LUMINOSO ESTRELLAS AZUL",
+    "bacacay": -2.2,
+    "deposito": 0.0,
+    "total": -2.2
+  },
+  {
+    "articulo": "LUMINOSO ESTRELLAS GRIS",
+    "bacacay": 37.7,
+    "deposito": 0.0,
+    "total": 37.7
+  },
+  {
+    "articulo": "LUMINOSO ESTRELLAS ROSA",
+    "bacacay": -205.3,
+    "deposito": 0.0,
+    "total": -205.3
+  },
+  {
+    "articulo": "LUMINOSO PELOTAS AZUL",
+    "bacacay": 46.2,
+    "deposito": 1163.4,
+    "total": 1209.6
+  },
+  {
+    "articulo": "LUMINOSO PELOTAS CELESTE",
+    "bacacay": 23.6,
+    "deposito": 1094.5,
+    "total": 1118.1
+  },
+  {
+    "articulo": "LUMINOSO PELOTAS GRIS",
+    "bacacay": 22.7,
+    "deposito": 578.2,
+    "total": 600.9
+  },
+  {
+    "articulo": "LUMINOSO PLANETA L CELETE",
+    "bacacay": -22.7,
+    "deposito": 450.1,
+    "total": 427.4
+  },
+  {
+    "articulo": "LUMINOSO PLANETA L VERDE",
+    "bacacay": -22.7,
+    "deposito": 398.6,
+    "total": 375.9
+  },
+  {
+    "articulo": "LUMINOSO PLANETA S CELESTE",
+    "bacacay": 501.6,
+    "deposito": -18.6,
+    "total": 483.0
+  },
+  {
+    "articulo": "LUMINOSO PLANETA S NATURAL",
+    "bacacay": 162.7,
+    "deposito": 266.3,
+    "total": 429.0
+  },
+  {
+    "articulo": "LUMINOSO PLANETA S VERDE",
+    "bacacay": 94.2,
+    "deposito": -0.4,
+    "total": 93.8
+  },
+  {
+    "articulo": "LUMINOSO PLANETAS L AZUL",
+    "bacacay": 114.5,
+    "deposito": 147.7,
+    "total": 262.2
+  },
+  {
+    "articulo": "LUMINOSO UNICORNIO CELESTE",
+    "bacacay": 290.7,
+    "deposito": 591.5,
+    "total": 882.2
+  },
+  {
+    "articulo": "LUMINOSO UNICORNIO NATURAL",
+    "bacacay": 105.3,
+    "deposito": 819.2,
+    "total": 924.5
+  },
+  {
+    "articulo": "LUMINOSO UNICORNIO ROSA",
+    "bacacay": -27.2,
+    "deposito": 937.1,
+    "total": 909.9
+  },
+  {
+    "articulo": "MODAL HAWAI ARENA",
+    "bacacay": 56.7,
+    "deposito": 434.4,
+    "total": 491.1
+  },
+  {
+    "articulo": "MODAL HAWAI BEIGE",
+    "bacacay": 57.3,
+    "deposito": 451.3,
+    "total": 508.6
+  },
+  {
+    "articulo": "MODAL HAWAI BRONCE",
+    "bacacay": 74.0,
+    "deposito": 392.0,
+    "total": 466.0
+  },
+  {
+    "articulo": "MODAL HAWAI CAMEL",
+    "bacacay": 74.8,
+    "deposito": 391.9,
+    "total": 466.7
+  },
+  {
+    "articulo": "MODAL HAWAI CHOCOLATE",
+    "bacacay": 75.5,
+    "deposito": 407.8,
+    "total": 483.3
+  },
+  {
+    "articulo": "MODAL HAWAI DENIM",
+    "bacacay": 70.8,
+    "deposito": 419.8,
+    "total": 490.6
+  },
+  {
+    "articulo": "MODAL HAWAI DULCE DE LECHE",
+    "bacacay": 74.1,
+    "deposito": 450.9,
+    "total": 525.0
+  },
+  {
+    "articulo": "MODAL HAWAI GRIS",
+    "bacacay": 68.1,
+    "deposito": 443.6,
+    "total": 511.7
+  },
+  {
+    "articulo": "MODAL HAWAI KARANDA",
+    "bacacay": 69.5,
+    "deposito": 402.0,
+    "total": 471.5
+  },
+  {
+    "articulo": "MODAL HAWAI LAVANDA GRIS",
+    "bacacay": 72.8,
+    "deposito": 917.1,
+    "total": 989.9
+  },
+  {
+    "articulo": "MODAL HAWAI MARRON",
+    "bacacay": 72.7,
+    "deposito": 911.6,
+    "total": 984.3
+  },
+  {
+    "articulo": "MODAL HAWAI MARRON OSCURO",
+    "bacacay": 70.9,
+    "deposito": 395.2,
+    "total": 466.1
+  },
+  {
+    "articulo": "MODAL HAWAI MARRON ROSADO",
+    "bacacay": 77.4,
+    "deposito": 427.7,
+    "total": 505.1
+  },
+  {
+    "articulo": "MODAL HAWAI MILITAR",
+    "bacacay": 57.3,
+    "deposito": 448.6,
+    "total": 505.9
+  },
+  {
+    "articulo": "MODAL HAWAI MOCA",
+    "bacacay": 71.5,
+    "deposito": 936.6,
+    "total": 1008.1
+  },
+  {
+    "articulo": "MODAL HAWAI NEGRO",
+    "bacacay": 144.9,
+    "deposito": 5710.9,
+    "total": 5855.8
+  },
+  {
+    "articulo": "MODAL HAWAI NOCHE",
+    "bacacay": 73.8,
+    "deposito": 846.4,
+    "total": 920.2
+  },
+  {
+    "articulo": "MODAL HAWAI OLIVA",
+    "bacacay": 72.6,
+    "deposito": 923.8,
+    "total": 996.4
+  },
+  {
+    "articulo": "MODAL HAWAI PETROLEO",
+    "bacacay": 72.7,
+    "deposito": 920.3,
+    "total": 993.0
+  },
+  {
+    "articulo": "MODAL HAWAI ROSA BEBE",
+    "bacacay": 78.6,
+    "deposito": 418.3,
+    "total": 496.9
+  },
+  {
+    "articulo": "MODAL HAWAI ROSA VIEJO",
+    "bacacay": 59.6,
+    "deposito": 931.2,
+    "total": 990.8
+  },
+  {
+    "articulo": "MODAL HAWAI TINTO",
+    "bacacay": 54.2,
+    "deposito": 888.8,
+    "total": 943.0
+  },
+  {
+    "articulo": "MODAL HAWAI VIOLETA",
+    "bacacay": 73.5,
+    "deposito": 905.3,
+    "total": 978.8
+  },
+  {
+    "articulo": "MODAL HAWAI VISON",
+    "bacacay": 71.4,
+    "deposito": 367.1,
+    "total": 438.5
+  },
+  {
+    "articulo": "MODAL SOFT BEIGE",
+    "bacacay": 173.0,
+    "deposito": 1692.1,
+    "total": 1865.1
+  },
+  {
+    "articulo": "MODAL SOFT BLANCO",
+    "bacacay": -202.1,
+    "deposito": 1033.5,
+    "total": 831.4
+  },
+  {
+    "articulo": "MODAL SOFT BORRAVINO",
+    "bacacay": 73.3,
+    "deposito": -73.3,
+    "total": 0.0
+  },
+  {
+    "articulo": "MODAL SOFT CAMEL",
+    "bacacay": 183.7,
+    "deposito": 709.9,
+    "total": 893.6
+  },
+  {
+    "articulo": "MODAL SOFT CELESTE",
+    "bacacay": 323.0,
+    "deposito": -47.4,
+    "total": 275.6
+  },
+  {
+    "articulo": "MODAL SOFT CHOCOLATE",
+    "bacacay": -2.9,
+    "deposito": 598.8,
+    "total": 595.9
+  },
+  {
+    "articulo": "MODAL SOFT DULCE DE LECHE",
+    "bacacay": 433.6,
+    "deposito": 0.0,
+    "total": 433.6
+  },
+  {
+    "articulo": "MODAL SOFT GRIS MELANGE",
+    "bacacay": 20.1,
+    "deposito": 1236.7,
+    "total": 1256.8
+  },
+  {
+    "articulo": "MODAL SOFT MARINO",
+    "bacacay": 310.3,
+    "deposito": -24.8,
+    "total": 285.5
+  },
+  {
+    "articulo": "MODAL SOFT MILITAR",
+    "bacacay": 420.1,
+    "deposito": 0.0,
+    "total": 420.1
+  },
+  {
+    "articulo": "MODAL SOFT NATURAL",
+    "bacacay": 141.8,
+    "deposito": 652.3,
+    "total": 794.1
+  },
+  {
+    "articulo": "MODAL SOFT NEGRO",
+    "bacacay": 2116.7,
+    "deposito": 5166.6,
+    "total": 7283.3
+  },
+  {
+    "articulo": "MODAL SOFT ROJO",
+    "bacacay": 502.8,
+    "deposito": 0.0,
+    "total": 502.8
+  },
+  {
+    "articulo": "MODAL SOFT ROSA",
+    "bacacay": 406.7,
+    "deposito": 0.0,
+    "total": 406.7
+  },
+  {
+    "articulo": "MODAL SOFT TOPO MELANGE",
+    "bacacay": 109.9,
+    "deposito": 2322.7,
+    "total": 2432.6
+  },
+  {
+    "articulo": "MORLEY PRINT ANIMAL MARRON",
+    "bacacay": 111.9,
+    "deposito": 440.4,
+    "total": 552.3
+  },
+  {
+    "articulo": "MORLEY PRINT ANIMAL MILITAR",
+    "bacacay": 108.7,
+    "deposito": 360.2,
+    "total": 468.9
+  },
+  {
+    "articulo": "MORLEY PRINT ANIMAL NEGRO",
+    "bacacay": 107.2,
+    "deposito": 921.6,
+    "total": 1028.8
+  },
+  {
+    "articulo": "MORLEY PRINT BATIK MARRON",
+    "bacacay": 91.0,
+    "deposito": 835.9,
+    "total": 926.9
+  },
+  {
+    "articulo": "MORLEY PRINT BATIK MILITAR",
+    "bacacay": 89.0,
+    "deposito": 366.5,
+    "total": 455.5
+  },
+  {
+    "articulo": "MORLEY PRINT BATIK NEGRO",
+    "bacacay": 89.0,
+    "deposito": 857.7,
+    "total": 946.7
+  },
+  {
+    "articulo": "MORLEY PRINT FLOR CELESTE",
+    "bacacay": 0.0,
+    "deposito": 551.0,
+    "total": 551.0
+  },
+  {
+    "articulo": "MORLEY PRINT FLOR NATURAL",
+    "bacacay": 119.8,
+    "deposito": 390.5,
+    "total": 510.3
+  },
+  {
+    "articulo": "MORLEY PRINT FLOR ROSA",
+    "bacacay": 113.0,
+    "deposito": 416.3,
+    "total": 529.3
+  },
+  {
+    "articulo": "MORLEY PRINT RAYA CELESTE",
+    "bacacay": 112.0,
+    "deposito": 379.0,
+    "total": 491.0
+  },
+  {
+    "articulo": "MORLEY PRINT RAYA MARRON",
+    "bacacay": 0.0,
+    "deposito": 489.8,
+    "total": 489.8
+  },
+  {
+    "articulo": "MORLEY PRINT RAYA NEGRO",
+    "bacacay": 102.3,
+    "deposito": 371.7,
+    "total": 474.0
+  },
+  {
+    "articulo": "MORLEY PRINT VACA MARRON",
+    "bacacay": 99.3,
+    "deposito": 401.1,
+    "total": 500.4
+  },
+  {
+    "articulo": "MORLEY PRINT VACA NATURAL",
+    "bacacay": 75.1,
+    "deposito": 395.0,
+    "total": 470.1
+  },
+  {
+    "articulo": "MORLEY PRINT VACA NEGRO",
+    "bacacay": 85.5,
+    "deposito": 853.4,
+    "total": 938.9
+  },
+  {
+    "articulo": "MORLEY SOFT BEIGE",
+    "bacacay": 353.6,
+    "deposito": 2612.8,
+    "total": 2966.4
+  },
+  {
+    "articulo": "MORLEY SOFT BORDO",
+    "bacacay": -42.5,
+    "deposito": 652.4,
+    "total": 609.9
+  },
+  {
+    "articulo": "MORLEY SOFT CAMEL",
+    "bacacay": 419.3,
+    "deposito": 2012.4,
+    "total": 2431.7
+  },
+  {
+    "articulo": "MORLEY SOFT CELESTE",
+    "bacacay": 161.1,
+    "deposito": 256.7,
+    "total": 417.8
+  },
+  {
+    "articulo": "MORLEY SOFT CHOCOLATE",
+    "bacacay": 199.3,
+    "deposito": 1463.2,
+    "total": 1662.5
+  },
+  {
+    "articulo": "MORLEY SOFT GRIS",
+    "bacacay": 255.5,
+    "deposito": 1741.0,
+    "total": 1996.5
+  },
+  {
+    "articulo": "MORLEY SOFT MALBEC",
+    "bacacay": 41.6,
+    "deposito": 407.5,
+    "total": 449.1
+  },
+  {
+    "articulo": "MORLEY SOFT MARINO",
+    "bacacay": 82.8,
+    "deposito": 367.1,
+    "total": 449.9
+  },
+  {
+    "articulo": "MORLEY SOFT MELANGE",
+    "bacacay": -22.1,
+    "deposito": 994.8,
+    "total": 972.7
+  },
+  {
+    "articulo": "MORLEY SOFT MILITAR",
+    "bacacay": 265.7,
+    "deposito": 1213.6,
+    "total": 1479.3
+  },
+  {
+    "articulo": "MORLEY SOFT NEGRO",
+    "bacacay": -176.1,
+    "deposito": 10946.7,
+    "total": 10770.6
+  },
+  {
+    "articulo": "MORLEY SOFT OFF WHITE",
+    "bacacay": 62.8,
+    "deposito": 2490.2,
+    "total": 2553.0
+  },
+  {
+    "articulo": "MORLEY SOFT ROSA VIEJO",
+    "bacacay": 401.3,
+    "deposito": 877.3,
+    "total": 1278.6
+  },
+  {
+    "articulo": "PLUSH DOBLE BEIGE",
+    "bacacay": 0.0,
+    "deposito": 904.2,
+    "total": 904.2
+  },
+  {
+    "articulo": "PLUSH DOBLE BORDO",
+    "bacacay": 121.6,
+    "deposito": 1569.5,
+    "total": 1691.1
+  },
+  {
+    "articulo": "PLUSH DOBLE CELESTE",
+    "bacacay": 45.7,
+    "deposito": 717.3,
+    "total": 763.0
+  },
+  {
+    "articulo": "PLUSH DOBLE CHOCO",
+    "bacacay": 88.0,
+    "deposito": 2044.8,
+    "total": 2132.8
+  },
+  {
+    "articulo": "PLUSH DOBLE GRIS",
+    "bacacay": 64.1,
+    "deposito": 1412.3,
+    "total": 1476.4
+  },
+  {
+    "articulo": "PLUSH DOBLE LILA",
+    "bacacay": 67.1,
+    "deposito": 791.5,
+    "total": 858.6
+  },
+  {
+    "articulo": "PLUSH DOBLE MARINO",
+    "bacacay": 46.7,
+    "deposito": 1792.6,
+    "total": 1839.3
+  },
+  {
+    "articulo": "PLUSH DOBLE MOCCA",
+    "bacacay": 71.9,
+    "deposito": 418.2,
+    "total": 490.1
+  },
+  {
+    "articulo": "PLUSH DOBLE NEGRO",
+    "bacacay": 378.4,
+    "deposito": 9530.1,
+    "total": 9908.5
+  },
+  {
+    "articulo": "PLUSH DOBLE OFF WHITE",
+    "bacacay": 46.8,
+    "deposito": 1109.5,
+    "total": 1156.3
+  },
+  {
+    "articulo": "PLUSH DOBLE ROSA BB",
+    "bacacay": 21.7,
+    "deposito": 693.3,
+    "total": 715.0
+  },
+  {
+    "articulo": "PLUSH DOBLE ROSA OSCURO",
+    "bacacay": 68.6,
+    "deposito": 708.2,
+    "total": 776.8
+  },
+  {
+    "articulo": "PLUSH DOBLE TOBACCO",
+    "bacacay": 59.3,
+    "deposito": 674.9,
+    "total": 734.2
+  },
+  {
+    "articulo": "PLUSH DOBLE VERDE INGLES",
+    "bacacay": 71.5,
+    "deposito": 779.1,
+    "total": 850.6
+  },
+  {
+    "articulo": "PLUSH HAWAI BEIGE",
+    "bacacay": 87.5,
+    "deposito": 416.1,
+    "total": 503.6
+  },
+  {
+    "articulo": "PLUSH HAWAI BORDO",
+    "bacacay": 171.2,
+    "deposito": 599.5,
+    "total": 770.7
+  },
+  {
+    "articulo": "PLUSH HAWAI CAMEL",
+    "bacacay": 150.1,
+    "deposito": 300.7,
+    "total": 450.8
+  },
+  {
+    "articulo": "PLUSH HAWAI CHOCOLATE",
+    "bacacay": 142.9,
+    "deposito": 288.1,
+    "total": 431.0
+  },
+  {
+    "articulo": "PLUSH HAWAI DENIM",
+    "bacacay": 112.2,
+    "deposito": 393.0,
+    "total": 505.2
+  },
+  {
+    "articulo": "PLUSH HAWAI GRIS",
+    "bacacay": 88.7,
+    "deposito": 232.6,
+    "total": 321.3
+  },
+  {
+    "articulo": "PLUSH HAWAI GRIS CLARO",
+    "bacacay": 22.2,
+    "deposito": 920.2,
+    "total": 942.4
+  },
+  {
+    "articulo": "PLUSH HAWAI HABANO",
+    "bacacay": 171.4,
+    "deposito": 745.9,
+    "total": 917.3
+  },
+  {
+    "articulo": "PLUSH HAWAI KARANDA",
+    "bacacay": 44.6,
+    "deposito": 458.8,
+    "total": 503.4
+  },
+  {
+    "articulo": "PLUSH HAWAI MARINO",
+    "bacacay": 169.9,
+    "deposito": 769.8,
+    "total": 939.7
+  },
+  {
+    "articulo": "PLUSH HAWAI MOCA",
+    "bacacay": 86.0,
+    "deposito": 545.9,
+    "total": 631.9
+  },
+  {
+    "articulo": "PLUSH HAWAI NEGRO",
+    "bacacay": 234.0,
+    "deposito": 8.8,
+    "total": 242.8
+  },
+  {
+    "articulo": "PLUSH HAWAI OLIVA",
+    "bacacay": 141.6,
+    "deposito": 366.0,
+    "total": 507.6
+  },
+  {
+    "articulo": "PLUSH HAWAI PETROLEO",
+    "bacacay": 108.8,
+    "deposito": 412.5,
+    "total": 521.3
+  },
+  {
+    "articulo": "PLUSH HAWAI ROSA",
+    "bacacay": 130.1,
+    "deposito": 333.5,
+    "total": 463.6
+  },
+  {
+    "articulo": "PLUSH HAWAI ROSA VINTAGE",
+    "bacacay": 215.1,
+    "deposito": 259.9,
+    "total": 475.0
+  },
+  {
+    "articulo": "PLUSH HAWAI UVA",
+    "bacacay": 191.1,
+    "deposito": 314.4,
+    "total": 505.5
+  },
+  {
+    "articulo": "PLUSH HAWAI VERDE SECO",
+    "bacacay": 220.1,
+    "deposito": 568.8,
+    "total": 788.9
+  },
+  {
+    "articulo": "PLUSH HAWAI VINO",
+    "bacacay": 107.6,
+    "deposito": 367.8,
+    "total": 475.4
+  },
+  {
+    "articulo": "PLUSH HAWAI VISON",
+    "bacacay": 106.0,
+    "deposito": 739.5,
+    "total": 845.5
+  },
+  {
+    "articulo": "PLUSH LUMINOSO ARGENTINA AZUL",
+    "bacacay": -8.0,
+    "deposito": 464.7,
+    "total": 456.7
+  },
+  {
+    "articulo": "PLUSH LUMINOSO ARGENTINA GRIS",
+    "bacacay": -109.8,
+    "deposito": 751.0,
+    "total": 641.2
+  },
+  {
+    "articulo": "PLUSH LUMINOSO ARGENTINA NEGRO",
+    "bacacay": 37.0,
+    "deposito": 696.4,
+    "total": 733.4
+  },
+  {
+    "articulo": "PLUSH LUMINOSO CORAZON CELESTE",
+    "bacacay": 251.3,
+    "deposito": 689.8,
+    "total": 941.1
+  },
+  {
+    "articulo": "PLUSH LUMINOSO CORAZON LILA",
+    "bacacay": 62.8,
+    "deposito": 674.4,
+    "total": 737.2
+  },
+  {
+    "articulo": "PLUSH LUMINOSO CORAZON NEGRO",
+    "bacacay": 46.2,
+    "deposito": 774.9,
+    "total": 821.1
+  },
+  {
+    "articulo": "PLUSH LUMINOSO CORAZON ROSA",
+    "bacacay": 133.3,
+    "deposito": 572.5,
+    "total": 705.8
+  },
+  {
+    "articulo": "PLUSH LUMINOSO DIEZ AZUL",
+    "bacacay": 132.5,
+    "deposito": 551.2,
+    "total": 683.7
+  },
+  {
+    "articulo": "PLUSH LUMINOSO DIEZ GRIS",
+    "bacacay": 152.1,
+    "deposito": 473.8,
+    "total": 625.9
+  },
+  {
+    "articulo": "PLUSH LUMINOSO DIEZ NEGRO",
+    "bacacay": 271.5,
+    "deposito": 468.3,
+    "total": 739.8
+  },
+  {
+    "articulo": "PLUSH LUMINOSO DINOSAURIO BEIGE",
+    "bacacay": 154.2,
+    "deposito": 564.3,
+    "total": 718.5
+  },
+  {
+    "articulo": "PLUSH LUMINOSO DINOSAURIO GRIS",
+    "bacacay": 152.7,
+    "deposito": 635.5,
+    "total": 788.2
+  },
+  {
+    "articulo": "PLUSH LUMINOSO DINOSAURIO VERD",
+    "bacacay": 59.6,
+    "deposito": 632.8,
+    "total": 692.4
+  },
+  {
+    "articulo": "PLUSH LUMINOSO ESTRELLA AZUL",
+    "bacacay": 21.9,
+    "deposito": 876.5,
+    "total": 898.4
+  },
+  {
+    "articulo": "PLUSH LUMINOSO ESTRELLA NEGRO",
+    "bacacay": 67.3,
+    "deposito": 784.4,
+    "total": 851.7
+  },
+  {
+    "articulo": "PLUSH LUMINOSO ESTRELLA ROSA",
+    "bacacay": 45.3,
+    "deposito": 885.1,
+    "total": 930.4
+  },
+  {
+    "articulo": "PLUSH LUMINOSO ESTRELLA VIOLETA",
+    "bacacay": -44.9,
+    "deposito": 883.7,
+    "total": 838.8
+  },
+  {
+    "articulo": "PLUSH LUMINOSO FLOR AMARILLO",
+    "bacacay": 44.9,
+    "deposito": 878.4,
+    "total": 923.3
+  },
+  {
+    "articulo": "PLUSH LUMINOSO FLOR CELESTE",
+    "bacacay": 44.4,
+    "deposito": 965.7,
+    "total": 1010.1
+  },
+  {
+    "articulo": "PLUSH LUMINOSO FLOR CORAL",
+    "bacacay": 65.7,
+    "deposito": 754.6,
+    "total": 820.3
+  },
+  {
+    "articulo": "PLUSH LUMINOSO FLOR ROSA",
+    "bacacay": 110.2,
+    "deposito": 769.0,
+    "total": 879.2
+  },
+  {
+    "articulo": "PLUSH LUMINOSO LUNA BEIGE",
+    "bacacay": 133.0,
+    "deposito": 238.2,
+    "total": 371.2
+  },
+  {
+    "articulo": "PLUSH LUMINOSO LUNA GRIS",
+    "bacacay": 219.3,
+    "deposito": 593.8,
+    "total": 813.1
+  },
+  {
+    "articulo": "PLUSH LUMINOSO LUNA LILA",
+    "bacacay": 1.2,
+    "deposito": 795.0,
+    "total": 796.2
+  },
+  {
+    "articulo": "PLUSH LUMINOSO LUNA VERDE",
+    "bacacay": 85.2,
+    "deposito": 377.3,
+    "total": 462.5
+  },
+  {
+    "articulo": "PLUSH LUMINOSO PLANETA BLANCO",
+    "bacacay": 146.6,
+    "deposito": 675.9,
+    "total": 822.5
+  },
+  {
+    "articulo": "PLUSH LUMINOSO PLANETA GRIS",
+    "bacacay": 218.9,
+    "deposito": 697.2,
+    "total": 916.1
+  },
+  {
+    "articulo": "PLUSH LUMINOSO PLANETA NEGRO",
+    "bacacay": 199.7,
+    "deposito": 823.2,
+    "total": 1022.9
+  },
+  {
+    "articulo": "PLUSH LUMINOSO UNICORNIO CELEST",
+    "bacacay": 178.5,
+    "deposito": 748.2,
+    "total": 926.7
+  },
+  {
+    "articulo": "PLUSH LUMINOSO UNICORNIO ROSA",
+    "bacacay": 37.2,
+    "deposito": 790.1,
+    "total": 827.3
+  },
+  {
+    "articulo": "PLUSH LUMINOSO UNICORNIO VERDE",
+    "bacacay": 36.2,
+    "deposito": 892.3,
+    "total": 928.5
+  },
+  {
+    "articulo": "SARAH KEY BEIGE",
+    "bacacay": 59.4,
+    "deposito": 1135.1,
+    "total": 1194.5
+  },
+  {
+    "articulo": "SARAH KEY BORDO",
+    "bacacay": 60.2,
+    "deposito": 1084.8,
+    "total": 1145.0
+  },
+  {
+    "articulo": "SARAH KEY CAMEL",
+    "bacacay": 63.4,
+    "deposito": 1141.0,
+    "total": 1204.4
+  },
+  {
+    "articulo": "SARAH KEY MARINO",
+    "bacacay": 60.2,
+    "deposito": 1127.3,
+    "total": 1187.5
+  },
+  {
+    "articulo": "SARAH KEY MILITAR",
+    "bacacay": 61.6,
+    "deposito": 1129.2,
+    "total": 1190.8
+  },
+  {
+    "articulo": "SARAH KEY NATURAL",
+    "bacacay": 60.9,
+    "deposito": 1124.3,
+    "total": 1185.2
+  },
+  {
+    "articulo": "SARAH KEY NEGRO",
+    "bacacay": 104.6,
+    "deposito": 5955.9,
+    "total": 6060.5
+  },
+  {
+    "articulo": "SARAH KEY ROSA VIEJO",
+    "bacacay": 59.5,
+    "deposito": 1143.2,
+    "total": 1202.7
+  },
+  {
+    "articulo": "SARAH KEY TOPO",
+    "bacacay": 59.4,
+    "deposito": 1115.1,
+    "total": 1174.5
+  }
 ]
