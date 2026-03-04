@@ -196,11 +196,15 @@ stock=data
 renderStock(stock)
 })
 
-fetch("cuentas.json")
+fetch("stock.json")
 .then(r=>r.json())
 .then(data=>{
-cuentas=data
-renderClientes()
+stock=data
+cargarStockLocal()
+rebuildStockIndex()
+renderStock(stock)
+initVenta()
+})
 })
 
 function renderStock(data){
