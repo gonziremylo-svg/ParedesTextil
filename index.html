@@ -251,7 +251,28 @@ Saldo: ${c.moneda} ${c.saldo}
 })
 
 }
+function registrarPago(i){
 
+let monto=prompt("Monto del pago")
+
+if(!monto)return
+
+let valor=parseFloat(monto)
+
+cuentas[i].saldo-=valor
+
+if(!cuentas[i].pagos){
+cuentas[i].pagos=[]
+}
+
+cuentas[i].pagos.push({
+fecha:new Date().toLocaleDateString(),
+monto:valor
+})
+
+renderClientes()
+
+}
 </script>
 
 </body>
