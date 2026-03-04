@@ -154,7 +154,34 @@ Paredes Textil
 <h2>Cuentas Corrientes</h2>
 
 <div id="clientes"></div>
+<h2>Venta</h2>
 
+<div class="card" id="ventaCard">
+
+<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px;">
+<input id="ventaBuscar" class="search" placeholder="Buscar producto..." oninput="filtrarOpcionesVenta()">
+<select id="ventaProducto" style="padding:12px;border-radius:10px;border:1px solid #cbd5e1;min-width:280px;"></select>
+
+<input id="ventaKg" type="number" step="0.01" inputmode="decimal" placeholder="Kg" style="padding:12px;border-radius:10px;border:1px solid #cbd5e1;width:120px;">
+
+<select id="ventaOrigen" style="padding:12px;border-radius:10px;border:1px solid #cbd5e1;">
+<option value="bacacay">Sale de Bacacay</option>
+<option value="deposito">Sale de Depósito</option>
+</select>
+
+<button onclick="agregarLineaVenta()">Agregar</button>
+</div>
+
+<div id="ventaLista" style="display:flex;flex-direction:column;gap:10px;"></div>
+
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
+<button onclick="confirmarVenta()">Confirmar venta</button>
+<button onclick="limpiarVenta()" style="background:#64748b;">Limpiar</button>
+</div>
+
+<div id="ventaMsg" style="margin-top:12px;font-weight:600;"></div>
+
+</div>
 </div>
 
 <script>
@@ -272,6 +299,163 @@ monto:valor
 
 renderClientes()
 
+}let ventaLineas = []
+let stockIndex = new Map()
+
+function rebuildStockIndex(){
+stockIndex = new Map()
+stock.forEach((it, idx) => stockIndex.set(it.articulo, idx))
+}
+
+function initVenta(){
+rebuildStockIndex()
+cargarOpcionesVenta("")
+renderVentaLista()
+}
+
+function cargarOpcionesVenta(filtro){
+const sel = document.getElementById("ventaProducto")
+if(!sel) return
+sel.innerHTML = ""
+const f = (filtro||"").toLowerCase().trim()
+
+let lista = stock
+.filter(i => i.articulo.toLowerCase().includes(f))
+.slice(0, 300)
+
+lista.forEach(i=>{
+const opt = document.createElement("option")
+opt.value = i.articulo
+opt.textContent = i.articulo
+sel.appendChild(opt)
+})
+}
+
+function filtrarOpcionesVenta(){
+const v = document.getElementById("ventaBuscar").value
+cargarOpcionesVenta(v)
+}
+
+function agregarLineaVenta(){
+const producto = document.getElementById("ventaProducto").value
+const kgRaw = document.getElementById("ventaKg").value
+const origen = document.getElementById("ventaOrigen").value
+
+const kg = parseFloat(kgRaw)
+
+if(!producto){
+setVentaMsg("Elegí un producto", true)
+return
+}
+if(!(kg > 0)){
+setVentaMsg("Poné kg mayor a 0", true)
+return
+}
+
+ventaLineas.push({
+articulo: producto,
+kg: Math.round(kg * 100) / 100,
+origen: origen
+})
+
+document.getElementById("ventaKg").value = ""
+setVentaMsg("", false)
+renderVentaLista()
+}
+
+function borrarLineaVenta(i){
+ventaLineas.splice(i,1)
+renderVentaLista()
+}
+
+function renderVentaLista(){
+const cont = document.getElementById("ventaLista")
+if(!cont) return
+cont.innerHTML = ""
+
+if(ventaLineas.length === 0){
+cont.innerHTML = "<div style='color:#64748b;'>Sin items cargados</div>"
+return
+}
+
+ventaLineas.forEach((l,i)=>{
+cont.innerHTML += `
+<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:12px;display:flex;justify-content:space-between;gap:10px;align-items:center;">
+<div>
+<div style="font-weight:600;color:#1e40af;">${l.articulo}</div>
+<div style="color:#334155;margin-top:4px;">${l.kg.toFixed(2)} kg, ${l.origen==="bacacay" ? "sale de Bacacay" : "sale de Depósito"}</div>
+</div>
+<button onclick="borrarLineaVenta(${i})" style="background:#dc2626;">Borrar</button>
+</div>
+`
+})
+}
+
+function confirmarVenta(){
+if(ventaLineas.length === 0){
+setVentaMsg("No hay items para confirmar", true)
+return
+}
+
+let errores = []
+
+ventaLineas.forEach(l=>{
+const idx = stockIndex.get(l.articulo)
+if(idx === undefined){
+errores.push("No existe: " + l.articulo)
+return
+}
+const actual = parseFloat(stock[idx][l.origen]) || 0
+if(actual - l.kg < -0.0001){
+errores.push("Stock insuficiente en " + (l.origen==="bacacay"?"Bacacay":"Depósito") + ": " + l.articulo)
+}
+})
+
+if(errores.length){
+setVentaMsg(errores.join(" | "), true)
+return
+}
+
+ventaLineas.forEach(l=>{
+const idx = stockIndex.get(l.articulo)
+stock[idx][l.origen] = (parseFloat(stock[idx][l.origen]) || 0) - l.kg
+stock[idx][l.origen] = Math.round(stock[idx][l.origen] * 100) / 100
+})
+
+guardarStockLocal()
+renderStock(stock)
+limpiarVenta()
+setVentaMsg("Venta confirmada. Stock actualizado.", false)
+}
+
+function limpiarVenta(){
+ventaLineas = []
+renderVentaLista()
+}
+
+function setVentaMsg(t, esError){
+const el = document.getElementById("ventaMsg")
+if(!el) return
+el.textContent = t || ""
+el.style.color = esError ? "#dc2626" : "#16a34a"
+}
+
+function guardarStockLocal(){
+try{
+localStorage.setItem("paredes_stock", JSON.stringify(stock))
+}catch(e){}
+}
+
+function cargarStockLocal(){
+try{
+const raw = localStorage.getItem("paredes_stock")
+if(raw){
+const data = JSON.parse(raw)
+if(Array.isArray(data) && data.length){
+stock = data
+}
+}
+}catch(e){}
 }
 </script>
 
